@@ -1,0 +1,37 @@
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+    --------------------
+    at Protocol._enqueue (C:\Users\HP\Downloads\Compressed\food_delivery_backend_api_node-main\food_delivery_backend_api_node-main\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\HP\Downloads\Compressed\food_delivery_backend_api_node-main\food_delivery_backend_api_node-main\node_modules\mysql\lib\Connection.js:198:25)
+    at Object.query (C:\Users\HP\Downloads\Compressed\food_delivery_backend_api_node-main\food_delivery_backend_api_node-main\helpers\db_helpers.js:66:16)
+    at getUserWithPasswordData (C:\Users\HP\Downloads\Compressed\food_delivery_backend_api_node-main\food_delivery_backend_api_node-main\controllers\login_controller.js:284:8)
+    at C:\Users\HP\Downloads\Compressed\food_delivery_backend_api_node-main\food_delivery_backend_api_node-main\controllers\login_controller.js:25:13
+    at Object.CheckParameterValid (C:\Users\HP\Downloads\Compressed\food_delivery_backend_api_node-main\food_delivery_backend_api_node-main\helpers\helpers.js:69:20)
+    at C:\Users\HP\Downloads\Compressed\food_delivery_backend_api_node-main\food_delivery_backend_api_node-main\controllers\login_controller.js:23:16
+    at Layer.handle [as handle_request] (C:\Users\HP\Downloads\Compressed\food_delivery_backend_api_node-main\food_delivery_backend_api_node-main\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\Downloads\Compressed\food_delivery_backend_api_node-main\food_delivery_backend_api_node-main\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\HP\Downloads\Compressed\food_delivery_backend_api_node-main\food_delivery_backend_api_node-main\node_modules\express\lib\router\route.js:114:3)Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+    --------------------
+    at Protocol._enqueue (C:\Users\HP\Downloads\Compressed\food_delivery_backend_api_node-main\food_delivery_backend_api_node-main\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\HP\Downloads\Compressed\food_delivery_backend_api_node-main\food_delivery_backend_api_node-main\node_modules\mysql\lib\Connection.js:198:25)
+    at Object.query (C:\Users\HP\Downloads\Compressed\food_delivery_backend_api_node-main\food_delivery_backend_api_node-main\helpers\db_helpers.js:66:16)
+    at getUserWithPasswordData (C:\Users\HP\Downloads\Compressed\food_delivery_backend_api_node-main\food_delivery_backend_api_node-main\controllers\login_controller.js:284:8)
+    at C:\Users\HP\Downloads\Compressed\food_delivery_backend_api_node-main\food_delivery_backend_api_node-main\controllers\login_controller.js:25:13
+    at Object.CheckParameterValid (C:\Users\HP\Downloads\Compressed\food_delivery_backend_api_node-main\food_delivery_backend_api_node-main\helpers\helpers.js:69:20)
+    at C:\Users\HP\Downloads\Compressed\food_delivery_backend_api_node-main\food_delivery_backend_api_node-main\controllers\login_controller.js:23:16
+    at Layer.handle [as handle_request] (C:\Users\HP\Downloads\Compressed\food_delivery_backend_api_node-main\food_delivery_backend_api_node-main\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\Downloads\Compressed\food_delivery_backend_api_node-main\food_delivery_backend_api_node-main\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\HP\Downloads\Compressed\food_delivery_backend_api_node-main\food_delivery_backend_api_node-main\node_modules\express\lib\router\route.js:114:3)Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+    --------------------
+    at Protocol._enqueue (C:\Users\HP\Downloads\Compressed\food_delivery_backend_api_node-main\food_delivery_backend_api_node-main\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\HP\Downloads\Compressed\food_delivery_backend_api_node-main\food_delivery_backend_api_node-main\node_modules\mysql\lib\Connection.js:198:25)
+    at Object.query (C:\Users\HP\Downloads\Compressed\food_delivery_backend_api_node-main\food_delivery_backend_api_node-main\helpers\db_helpers.js:66:16)
+    at getUserWithPasswordData (C:\Users\HP\Downloads\Compressed\food_delivery_backend_api_node-main\food_delivery_backend_api_node-main\controllers\login_controller.js:284:8)
+    at C:\Users\HP\Downloads\Compressed\food_delivery_backend_api_node-main\food_delivery_backend_api_node-main\controllers\login_controller.js:25:13
+    at Object.CheckParameterValid (C:\Users\HP\Downloads\Compressed\food_delivery_backend_api_node-main\food_delivery_backend_api_node-main\helpers\helpers.js:69:20)
+    at C:\Users\HP\Downloads\Compressed\food_delivery_backend_api_node-main\food_delivery_backend_api_node-main\controllers\login_controller.js:23:16
+    at Layer.handle [as handle_request] (C:\Users\HP\Downloads\Compressed\food_delivery_backend_api_node-main\food_delivery_backend_api_node-main\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\Downloads\Compressed\food_delivery_backend_api_node-main\food_delivery_backend_api_node-main\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\HP\Downloads\Compressed\food_delivery_backend_api_node-main\food_delivery_backend_api_node-main\node_modules\express\lib\router\route.js:114:3)
